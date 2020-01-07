@@ -1,0 +1,1 @@
+C:\Users\bruta\source\repos\ExpensesApp\ExpensesApp\ExpensesApp.UWP\ExpensesApp.UWP.csproj;x86
