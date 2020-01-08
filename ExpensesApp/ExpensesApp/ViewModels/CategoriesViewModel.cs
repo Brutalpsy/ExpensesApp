@@ -18,15 +18,15 @@ namespace ExpensesApp.ViewModels
             GetExpensesPerCategory();
         }
 
-        private void GetExpensesPerCategory()
+        public void GetExpensesPerCategory()
         {
             var totalAmmount = Expense.GetTotalExpensesAmmount();
-
+            CategoryExpenses.Clear();
             Categories.ForEach(category => {
 
                 var categoryExpense = Expense.GetExpenses(category);
                 var ammoutPerCategory = categoryExpense.Sum(expense => expense.Ammount);
-                var percentage = ammoutPerCategory / totalAmmount ;
+                var percentage = totalAmmount != 0 ? ammoutPerCategory / totalAmmount: 0;
                 CategoryExpenses.Add(new CategoryExpenses()
                 {
                     Category = category,

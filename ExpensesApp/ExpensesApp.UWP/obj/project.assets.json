@@ -21100,18 +21100,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruta\\.nuget\\packages\\": {},
+    "C:\\Users\\aladindanijel\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruta\\source\\repos\\ExpensesApp\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
       "projectName": "ExpensesApp.UWP",
-      "projectPath": "C:\\Users\\bruta\\source\\repos\\ExpensesApp\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
-      "packagesPath": "C:\\Users\\bruta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruta\\source\\repos\\ExpensesApp\\ExpensesApp\\ExpensesApp.UWP\\obj\\",
+      "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
+      "packagesPath": "C:\\Users\\aladindanijel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -21119,7 +21119,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aladindanijel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -21128,13 +21128,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://akzonobelpc.pkgs.visualstudio.com/_packaging/Color-IT-Feed/nuget/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://garansys.pkgs.visualstudio.com/_packaging/GaransysNuGet/nuget/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\bruta\\source\\repos\\ExpensesApp\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
-              "projectPath": "C:\\Users\\bruta\\source\\repos\\ExpensesApp\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
+            "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
+              "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
             }
           }
         }

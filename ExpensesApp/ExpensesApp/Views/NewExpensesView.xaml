@@ -7,20 +7,31 @@
              x:Class="ExpensesApp.Views.NewExpensesView"
              xmlns:viewModelBase="clr-namespace:ExpensesApp.ViewModels.Base"
              viewModelBase:ViewModelLocator.AutoWireViewModel="True"
+             Title="New Expense"
              >
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save"
                      Command="{Binding SaveCommand}"></ToolbarItem>
     </ContentPage.ToolbarItems>
-    <ContentPage.Content>
-        <StackLayout Margin="16">
-            <Entry Placeholder="Expense name" Text="{Binding ExpenseName}"/>
-            <Entry Placeholder="Ammount" Text="{Binding ExpenseAmmount}"
-                   Keyboard="Numeric" />
-            <Entry Placeholder="Short description" Text="{Binding ExpenseDescription}"/>
-            <DatePicker Date="{Binding ExpenseDate}"/>
-            <Picker SelectedIndex="{Binding ExpenseCategory}" ItemsSource="{Binding Categories}">
-            </Picker>
-        </StackLayout>
-    </ContentPage.Content>
+            <TableView x:Name="expenseTableView">
+            <TableRoot>
+                <TableSection>
+                    <EntryCell Label="Name" Placeholder="Expense name" Text="{Binding ExpenseName}"/>
+                    <EntryCell Label="Description" Placeholder="Short description" Text="{Binding ExpenseDescription}"/>
+                    <EntryCell Label="Ammount" Placeholder="Expense Ammount" Keyboard="Numeric" Text="{Binding ExpenseAmmount}"/>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Margin="16,0">
+                            <Label Text="Date" VerticalTextAlignment="Center"/>
+                            <DatePicker Date="{Binding ExpenseDate}" HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Margin="16,0" Orientation="Horizontal">
+                            <Label Text="Categories" VerticalTextAlignment="Center"/>
+                            <Picker SelectedIndex="{Binding ExpenseCategory}" HorizontalOptions="FillAndExpand" VerticalOptions="Center" ItemsSource="{Binding Categories}" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+            </TableView>
 </ContentPage>

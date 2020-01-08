@@ -66,6 +66,8 @@ namespace ExpensesApp.ViewModels
         public ICommand SaveCommand { get; set; }
 
         public ObservableCollection<string> Categories { get; set; }
+        public ObservableCollection<ExpenseStatus> ExpendStatuses { get; set; }
+
 
         public NewExpensesViewModel()
         {
@@ -77,6 +79,7 @@ namespace ExpensesApp.ViewModels
         private void InitializeProperties()
         {
             Categories = new ObservableCollection<string>();
+            ExpendStatuses = new ObservableCollection<ExpenseStatus>();
             ExpenseDate = DateTime.Today;
         }
 
@@ -94,6 +97,7 @@ namespace ExpensesApp.ViewModels
         public void InsertExpense() 
         {
             var categoryIndex = 0;
+            var vm = this;
             Expense expense = new Expense()
             {
                 Name = ExpenseName,
@@ -114,6 +118,28 @@ namespace ExpensesApp.ViewModels
                 Application.Current.MainPage.DisplayAlert("Error", "No items were inserted", "Ok");
             }
 
+        }
+
+        public void GetExpenseStatuses() 
+        {
+            ExpendStatuses.Clear();
+            ExpendStatuses.Add(new ExpenseStatus()
+            {
+                Name = "Random",
+                Status = true
+            });
+
+            ExpendStatuses.Add(new ExpenseStatus()
+            {
+                Name = "Random 2",
+                Status = true
+            });
+
+            ExpendStatuses.Add(new ExpenseStatus()
+            {
+                Name = "Random 3",
+                Status = false
+            });
         }
     }
 }

@@ -21,7 +21,12 @@ namespace ExpensesApp.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new ExpensesApp.App());
+            string db_name = "db.db";
+            string folder_path = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal));
+            string full_path = Path.Combine(folder_path, db_name);
+
+
+            LoadApplication(new ExpensesApp.App(full_path));
         }
     }
 }

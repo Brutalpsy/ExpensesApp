@@ -17,8 +17,12 @@ namespace ExpensesApp.Views {
     public partial class NewExpensesView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.TableView expenseTableView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(NewExpensesView));
+            expenseTableView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TableView>(this, "expenseTableView");
         }
     }
 }
