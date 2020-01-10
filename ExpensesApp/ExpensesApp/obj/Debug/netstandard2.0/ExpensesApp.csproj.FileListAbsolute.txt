@@ -18,7 +18,6 @@ C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\bin\Debug\netsta
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\bin\Debug\netstandard2.0\ExpensesApp.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\bin\Debug\netstandard2.0\ref\ExpensesApp.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\bin\Debug\netstandard2.0\ExpensesApp.pdb
-C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.csprojAssemblyReference.cache
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\Views\CategoriesView.xaml.g.cs
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\Views\ExpensesView.xaml.g.cs
@@ -30,3 +29,4 @@ C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netsta
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ref\ExpensesApp.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.pdb
+C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.csprojAssemblyReference.cache

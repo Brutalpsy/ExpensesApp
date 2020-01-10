@@ -16,7 +16,7 @@
         <ListView ItemsSource="{Binding Expenses}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" Detail="{Binding Category}"></TextCell>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Category}" StyleId="icon"></TextCell>
                     <!--<ViewCell>
                             <Grid Margin="30,0,30,0">
                                 <Grid.RowDefinitions>
@@ -32,7 +32,6 @@
                                    HorizontalTextAlignment="End"></Label>
                         </Grid>
                     </ViewCell>-->
-
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

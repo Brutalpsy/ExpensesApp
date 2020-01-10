@@ -32,6 +32,7 @@ namespace ExpensesApp.Views
                     Path = "Status",
                     Mode = BindingMode.TwoWay,
                 };
+
                 cell.SetBinding(SwitchCell.OnProperty, binding);
                 section.Add(cell);
             }
