@@ -8,6 +8,12 @@
              xmlns:viewModelBase="clr-namespace:ExpensesApp.ViewModels.Base"
              viewModelBase:ViewModelLocator.AutoWireViewModel="True">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Export" Command="{Binding ExportCommand}">
+            
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
     <ListView ItemsSource="{Binding CategoryExpenses}">
         <ListView.ItemTemplate>
             <DataTemplate>

@@ -10,6 +10,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.PlatformAbstractions.dll",
 		"Nancy.dll",
 		"Newtonsoft.Json.dll",
+		"PCLStorage.Abstractions.dll",
+		"PCLStorage.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

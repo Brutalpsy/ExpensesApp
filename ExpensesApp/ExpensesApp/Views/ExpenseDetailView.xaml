@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ExpensesApp.Views.ExpenseDetailView"
+             xmlns:viewModelBase="clr-namespace:ExpensesApp.ViewModels.Base"
+             viewModelBase:ViewModelLocator.AutoWireViewModel="True"
+             >
+    <ContentPage.Content>
+        <StackLayout Margin="16,16,16,0" >
+            <Label Text="{Binding Expense.Ammount, StringFormat='{0:c}'}"
+                   Style="{StaticResource ammuntLabel}"/>
+            <Label Text="{Binding Expense.Name}" Style="{StaticResource nameLabel}" />
+            <StackLayout>
+                <Label Text="{Binding Expense.Date, StringFormat='{0:MM/DD/YYYY}'}" />
+                <Label Text="{Binding Expense.Category}" Style="{StaticResource categoryLabel}" />
+            </StackLayout>
+            <Label Text="{Binding Expense.Description}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

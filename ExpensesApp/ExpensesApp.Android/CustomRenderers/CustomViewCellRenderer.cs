@@ -39,9 +39,7 @@ namespace ExpensesApp.Droid.CustomRenderers
                 {
                     _cell.Background = _defaultBackground;
                 }
-
             }
-
         }
     }
 }

@@ -7,6 +7,7 @@
              x:Class="ExpensesApp.Views.ExpensesView"
              xmlns:viewModelBase="clr-namespace:ExpensesApp.ViewModels.Base"
              viewModelBase:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:behaviors="clr-namespace:ExpensesApp.Behavior"
              >
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="add.png"
@@ -14,6 +15,9 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView ItemsSource="{Binding Expenses}">
+            <ListView.Behaviors>
+                <behaviors:ListViewBehavior />
+            </ListView.Behaviors>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}" Detail="{Binding Category}" StyleId="icon"></TextCell>

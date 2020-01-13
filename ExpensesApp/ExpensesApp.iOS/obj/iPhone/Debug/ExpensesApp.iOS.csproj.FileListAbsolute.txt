@@ -75,6 +75,8 @@ C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\D
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\Nancy.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\PCLStorage.Abstractions.dll
+C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\PCLStorage.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\SQLite-net.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Users\aladindanijel\source\repos\xam\ExpensesApp\ExpensesApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll

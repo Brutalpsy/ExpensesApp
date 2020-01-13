@@ -63,6 +63,7 @@
     <Compile Include="CustomRenderers\CustomProgressBarRenderer.cs" />
     <Compile Include="CustomRenderers\CustomTextCellRenderer.cs" />
     <Compile Include="CustomRenderers\CustomViewCellRenderer.cs" />
+    <Compile Include="Dependencies\Share.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,7 +91,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\file_provider_paths.xml" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ExpensesApp\ExpensesApp.csproj">
       <Project>{12B1164F-DB65-4E07-AF10-3E7E004153EB}</Project>
