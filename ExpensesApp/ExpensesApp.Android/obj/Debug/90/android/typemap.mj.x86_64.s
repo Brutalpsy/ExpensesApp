@@ -1,4 +1,4 @@
-	/* Data Hash: 238814D268DF321F */
+	/* Data SHA1: ede4ba3d0b30d321b6e9655c0abe46b7d4f1a264 */
 	.file	"typemap.mj.inc"
 
 	/* Mapping header */

@@ -19570,12 +19570,11 @@
       ]
     },
     "System.Reflection.Emit.Lightweight/4.0.1": {
-      "sha512": "VChj+ghaMXBbCylLZHRMEWF6CYvq5NVmS+tTGJFI0ZJGyaES3jDy1ZfgiIBppBTyrtjpSis2kpSoGyS5kbwhSQ==",
+      "sha512": "sSzHHXueZ5Uh0OLpUQprhr+ZYJrLPA2Cmr4gn0wj9+FftNKXx8RIMKvO9qnjk2ebPYUjZ+F2ulGdPOsvj+MEjA==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -21243,18 +21242,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aladindanijel\\.nuget\\packages\\": {},
+    "C:\\Users\\psych\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
       "projectName": "ExpensesApp.UWP",
-      "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
-      "packagesPath": "C:\\Users\\aladindanijel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.UWP\\obj\\",
+      "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.UWP\\ExpensesApp.UWP.csproj",
+      "packagesPath": "C:\\Users\\psych\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -21262,7 +21261,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\aladindanijel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\psych\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -21271,15 +21270,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://akzonobelpc.pkgs.visualstudio.com/_packaging/Color-IT-Feed/nuget/v3/index.json": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://garansys.pkgs.visualstudio.com/_packaging/GaransysNuGet/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
-              "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
+            "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
+              "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
             }
           }
         }

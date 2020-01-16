@@ -3448,24 +3448,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aladindanijel\\.nuget\\packages\\": {},
+    "C:\\Users\\psych\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.Android\\ExpensesApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.Android\\ExpensesApp.Android.csproj",
       "projectName": "ExpensesApp.Android",
-      "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.Android\\ExpensesApp.Android.csproj",
-      "packagesPath": "C:\\Users\\aladindanijel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.Android\\ExpensesApp.Android.csproj",
+      "packagesPath": "C:\\Users\\psych\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\aladindanijel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\psych\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3474,15 +3474,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://akzonobelpc.pkgs.visualstudio.com/_packaging/Color-IT-Feed/nuget/v3/index.json": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://garansys.pkgs.visualstudio.com/_packaging/GaransysNuGet/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
-              "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
+            "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
+              "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
             }
           }
         }

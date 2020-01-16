@@ -14,7 +14,7 @@
                    Style="{StaticResource ammuntLabel}"/>
             <Label Text="{Binding Expense.Name}" Style="{StaticResource nameLabel}" />
             <StackLayout>
-                <Label Text="{Binding Expense.Date, StringFormat='{0:MM/DD/YYYY}'}" />
+                <Label Text="{Binding Expense.Date, StringFormat='{0:MM/dd/yyyy}'}" />
                 <Label Text="{Binding Expense.Category}" Style="{StaticResource categoryLabel}" />
             </StackLayout>
             <Label Text="{Binding Expense.Description}" />
