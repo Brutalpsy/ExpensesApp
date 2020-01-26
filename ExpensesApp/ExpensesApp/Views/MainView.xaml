@@ -5,9 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:views="clr-namespace:ExpensesApp.Views"
              xmlns:viewModelBase="clr-namespace:ExpensesApp.ViewModels.Base"
+             xmlns:android ="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
              mc:Ignorable="d"
              x:Class="ExpensesApp.Views.MainView"
-             viewModelBase:ViewModelLocator.AutoWireViewModel="true">
+             viewModelBase:ViewModelLocator.AutoWireViewModel="true"
+            >
+    <NavigationPage.TitleView>
+        <StackLayout VerticalOptions="Center" Orientation="Horizontal" Spacing="10">
+            <Image Source="icon.png"/>
+            <Label FontSize="20"
+                   FontAttributes="Bold"
+                   VerticalTextAlignment="Center"
+                   Text="Finance"
+                   TextColor="{OnPlatform Android={StaticResource androidWhite}, iOS=Black, Default=Black}"
+                   />
+        </StackLayout>
+    </NavigationPage.TitleView>
     <views:CategoriesView Title="Categories"
                           IconImageSource="category.png"></views:CategoriesView>
     <views:ExpensesView Title="Expenses" IconImageSource="expenses.png"></views:ExpensesView>

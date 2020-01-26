@@ -9,6 +9,7 @@
              viewModelBase:ViewModelLocator.AutoWireViewModel="True"
              xmlns:behaviors="clr-namespace:ExpensesApp.Behavior"
              >
+
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="add.png"
                      Command="{Binding Path=AddExpenseCommand}"></ToolbarItem>

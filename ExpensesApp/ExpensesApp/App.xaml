@@ -7,6 +7,9 @@
              x:Class="ExpensesApp.App">
     <Application.Resources>
         <ResourceDictionary>
+            <StyleSheet Source="../StyleSheets/styles.css"
+            />
+            <Color x:Key="androidWhite">White</Color>
             <Style TargetType="Label" x:Key="defaultlabelStyle">
                 <Setter Property="FontAttributes" Value="Bold"></Setter>
             </Style>
@@ -21,6 +24,7 @@
                 <Setter Property="TextColor" Value="#05A8AA"></Setter>
                 <Setter Property="FontAttributes" Value="Italic"></Setter>
             </Style>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

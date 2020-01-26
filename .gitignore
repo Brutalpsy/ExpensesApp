@@ -412,3 +412,12 @@ caketools/
 /.nuspec
 .XamarinFormsVersionFile.txt
 .idea
+*.zip
+*.dex
+*.class
+*.dll
+*.pdb
+*.apk
+*.java
+*.cache
+*.so
