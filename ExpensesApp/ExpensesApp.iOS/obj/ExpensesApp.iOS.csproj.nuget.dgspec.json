@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj": {}
+    "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj": {
+    "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
         "projectName": "ExpensesApp.iOS",
-        "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\psych\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp.iOS\\obj\\",
+        "projectPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\bruta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\psych\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bruta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
-                "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
+              "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
+                "projectPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
               }
             }
           }
@@ -69,21 +69,21 @@
         }
       }
     },
-    "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
+    "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj",
+        "projectUniqueName": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj",
         "projectName": "ExpensesApp",
-        "projectPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj",
-        "packagesPath": "C:\\Users\\psych\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\psych\\Source\\Repos\\xamairn\\xam\\ExpensesApp\\ExpensesApp\\obj\\",
+        "projectPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj",
+        "packagesPath": "C:\\Users\\bruta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\psych\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bruta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -145,7 +145,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
