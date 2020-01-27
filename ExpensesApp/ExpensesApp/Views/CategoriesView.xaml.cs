@@ -13,7 +13,16 @@ namespace ExpensesApp.Views
         {
             InitializeComponent();
             _categoriesViewModel = BindingContext as CategoriesViewModel;
+
+            SizeChanged += CategoriesView_SizeChanged;
         }
+
+        private void CategoriesView_SizeChanged(object sender, System.EventArgs e)
+        {
+            var visualState = Width > Height ? "Landscape" : "Portrait";
+            VisualStateManager.GoToState(titleLabel, visualState);
+        }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();

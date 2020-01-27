@@ -3353,24 +3353,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruta\\.nuget\\packages\\": {},
+    "C:\\Users\\aladindanijel\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
       "projectName": "ExpensesApp.iOS",
-      "projectPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\bruta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\aladindanijel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aladindanijel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3379,13 +3379,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://akzonobelpc.pkgs.visualstudio.com/_packaging/Color-IT-Feed/nuget/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://garansys.pkgs.visualstudio.com/_packaging/GaransysNuGet/nuget/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
-              "projectPath": "C:\\Users\\bruta\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
+            "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj": {
+              "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj"
             }
           }
         }

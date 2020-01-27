@@ -14,11 +14,46 @@
     </ContentPage.Resources>-->
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Export" Command="{Binding ExportCommand}">
-            
+
         </ToolbarItem>
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <Label Text="Categories" StyleClass="titleLabel"/>
+    
+        <Label Text="Categories" StyleClass="titleLabel" x:Name="titleLabel">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup Name="OrientationState">
+                    <VisualState Name="Landscape">
+                        <VisualState.Setters>
+                            <Setter Property="IsVisible" Value="false"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState Name="Portrait">
+                        <VisualState.Setters>
+                            <Setter Property="IsVisible" Value="true" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </Label>
+        <ImageButton Source="profits.png"
+                     HeightRequest="150"
+                     BackgroundColor="Transparent"
+                     WidthRequest="150">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup Name="CommonStates">
+                    <VisualState Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale" Value="1"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale" Value="0.8" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
         <ListView ItemsSource="{Binding CategoryExpenses}">
             <ListView.ItemTemplate>
                 <DataTemplate>

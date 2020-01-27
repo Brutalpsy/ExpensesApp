@@ -1,1 +1,1 @@
-C:\Users\bruta\source\repos\xam\ExpensesApp\ExpensesApp.UWP\ExpensesApp.UWP.csproj;x86
+C:\Users\aladindanijel\Source\Repos\xam\ExpensesApp\ExpensesApp.UWP\ExpensesApp.UWP.csproj;x86
