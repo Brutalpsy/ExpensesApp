@@ -1323,6 +1323,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -1334,6 +1335,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -3043,6 +3054,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -3054,6 +3066,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -4806,6 +4828,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -4817,6 +4840,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -6345,6 +6378,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -6356,6 +6390,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -8065,6 +8109,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -8076,6 +8121,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -9828,6 +9883,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -9839,6 +9895,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -11548,6 +11614,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -11559,6 +11626,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     },
@@ -13311,6 +13388,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.3.1",
@@ -13322,6 +13400,16 @@
         },
         "runtime": {
           "bin/placeholder/ExpensesApp.dll": {}
+        }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
         }
       }
     }
@@ -21231,6 +21319,11 @@
       "type": "project",
       "path": "../ExpensesApp/ExpensesApp.csproj",
       "msbuildProject": "../ExpensesApp/ExpensesApp.csproj"
+    },
+    "ExpensesApp.Resources/1.0.0": {
+      "type": "project",
+      "path": "../../ExpensesApp.Resources/ExpensesApp.Resources.csproj",
+      "msbuildProject": "../../ExpensesApp.Resources/ExpensesApp.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {

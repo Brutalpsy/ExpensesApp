@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "ExpensesApp/1.0.0": {
         "dependencies": {
+          "ExpensesApp.Resources": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "Nancy": "2.0.0",
           "PCLStorage": "1.0.2",
@@ -891,6 +892,19 @@
             "fileVersion": "4.3.0.336"
           }
         }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "runtime": {
+          "ExpensesApp.Resources.dll": {}
+        },
+        "resources": {
+          "es/ExpensesApp.Resources.resources.dll": {
+            "locale": "es"
+          },
+          "sr-Latn-RS/ExpensesApp.Resources.resources.dll": {
+            "locale": "sr-Latn-RS"
+          }
+        }
       }
     }
   },
@@ -1382,6 +1396,11 @@
       "sha512": "sha512-kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
       "path": "xamarin.forms/4.3.0.908675",
       "hashPath": "xamarin.forms.4.3.0.908675.nupkg.sha512"
+    },
+    "ExpensesApp.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

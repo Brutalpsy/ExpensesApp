@@ -4,7 +4,9 @@ using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Resource = ExpensesApp.Resources.Resources;
 using static ExpensesApp.Helper.EqualityComparer;
+
 
 namespace ExpensesApp.ViewModels
 {
@@ -86,19 +88,19 @@ namespace ExpensesApp.ViewModels
         private void GetCategories()
         {
             Categories.Clear();
-            Categories.Add("Housing");
-            Categories.Add("Debt");
-            Categories.Add("Health");
-            Categories.Add("Food");
-            Categories.Add("Travel");
-            Categories.Add("Other");
+            Categories.Add(Resource.Housing);
+            Categories.Add(Resource.Debt);
+            Categories.Add(Resource.Health);
+            Categories.Add(Resource.Food);
+            Categories.Add(Resource.Travel);
+            Categories.Add(Resource.Personal);
+            Categories.Add(Resource.Other);
         }
 
         public void InsertExpense() 
         {
             var categoryIndex = 0;
-            var vm = this;
-            Expense expense = new Expense()
+            var expense = new Expense()
             {
                 Name = ExpenseName,
                 Ammount = ExpenseAmmount,

@@ -1,7 +1,6 @@
 ﻿using ExpensesApp.Interfaces;
 using ExpensesApp.Models;
 using PCLStorage;
-using System;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
@@ -9,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
+using Resource = ExpensesApp.Resources.Resources;
 
 namespace ExpensesApp.ViewModels
 {
@@ -25,7 +25,8 @@ namespace ExpensesApp.ViewModels
         {
             Categories = new ObservableCollection<string>();
             CategoryExpenses = new ObservableCollection<CategoryExpenses>();
-            ExportCommand = new Command(async ()=> await ShareReport());
+            ExportCommand = new Command(async () => await ShareReport());
+
             GetCategories();
             GetExpensesPerCategory();
         }
@@ -51,24 +52,24 @@ namespace ExpensesApp.ViewModels
         private void GetCategories()
         {
             Categories.Clear();
-            Categories.Add("Housing");
-            Categories.Add("Debt");
-            Categories.Add("Health");
-            Categories.Add("Food");
-            Categories.Add("Travel");
-            Categories.Add("Other");
-            Categories.Add("");
+            Categories.Add(Resource.Housing);
+            Categories.Add(Resource.Debt);
+            Categories.Add(Resource.Health);
+            Categories.Add(Resource.Food);
+            Categories.Add(Resource.Travel);
+            Categories.Add(Resource.Personal);
+            Categories.Add(Resource.Other);
         }
 
         public async Task ShareReport()
         {
             IFileSystem fileSystem = FileSystem.Current;
             IFolder rootFolder = fileSystem.LocalStorage;
-            IFolder reportsFolder = await rootFolder.CreateFolderAsync("reports",CreationCollisionOption.OpenIfExists);
+            IFolder reportsFolder = await rootFolder.CreateFolderAsync("reports", CreationCollisionOption.OpenIfExists);
 
             var textFile = await reportsFolder.CreateFileAsync("report.txt", CreationCollisionOption.ReplaceExisting);
 
-            using(StreamWriter sw = new StreamWriter(textFile.Path)) 
+            using (StreamWriter sw = new StreamWriter(textFile.Path))
             {
                 CategoryExpenses.ForEach(expense =>
                 {

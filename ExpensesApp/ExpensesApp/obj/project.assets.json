@@ -1084,6 +1084,16 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "ExpensesApp.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExpensesApp.Resources.dll": {}
+        }
       }
     }
   },
@@ -4925,10 +4935,16 @@
         "xamarin.forms.4.3.0.908675.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "ExpensesApp.Resources/1.0.0": {
+      "type": "project",
+      "path": "../../ExpensesApp.Resources/ExpensesApp.Resources.csproj",
+      "msbuildProject": "../../ExpensesApp.Resources/ExpensesApp.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "ExpensesApp.Resources >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Nancy >= 2.0.0",
       "PCLStorage >= 1.0.2",
@@ -4971,7 +4987,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp.Resources\\ExpensesApp.Resources.csproj": {
+              "projectPath": "C:\\Users\\aladindanijel\\source\\repos\\xam\\ExpensesApp.Resources\\ExpensesApp.Resources.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

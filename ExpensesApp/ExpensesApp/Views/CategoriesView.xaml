@@ -6,7 +6,9 @@
              mc:Ignorable="d"
              x:Class="ExpensesApp.Views.CategoriesView"
              xmlns:viewModelBase="clr-namespace:ExpensesApp.ViewModels.Base"
-             viewModelBase:ViewModelLocator.AutoWireViewModel="True">
+             viewModelBase:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:te="clr-namespace:ExpensesApp.Extension"
+             >
 
     <!--<ContentPage.Resources>
         <StyleSheet Source="../StyleSheets/styles.css"
@@ -18,8 +20,8 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>
     <StackLayout>
-    
-        <Label Text="Categories" StyleClass="titleLabel" x:Name="titleLabel">
+
+        <Label Text="{te:Translate Text=Categories }" StyleClass="titleLabel" x:Name="titleLabel">
             <VisualStateManager.VisualStateGroups>
                 <VisualStateGroup Name="OrientationState">
                     <VisualState Name="Landscape">
